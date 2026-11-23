@@ -1,0 +1,42 @@
+# MUNIR Projects Page
+
+GitHub Pages용 독립형 프로젝트 소개 페이지입니다. 빌드 도구와 백엔드가 필요하지 않습니다.
+
+## 파일 설치
+
+저장소의 루트에 다음 파일을 복사하세요.
+
+- `projects.html`
+- `css/projects.css`
+- `js/projects.js`
+
+이후 `https://munir.cloud/projects.html` 로 접속합니다.
+
+## 기존 홈페이지 연결
+
+`index.html`의 메뉴나 버튼에 아래 링크를 추가하세요.
+
+```html
+<a href="./projects.html">Projects</a>
+```
+
+## 사용자별 수정 권장
+
+1. `projects.html`의 프로젝트 설명과 기술 스택을 실제 개발 내용에 맞게 검토하세요.
+2. `js/projects.js`의 `https://github.com/`을 본인 GitHub 프로필 주소로 수정하세요.
+3. 기존 홈페이지 진입 파일명이 index.html이 아니면 홈 링크를 변경하세요.
+4. 저장소 루트에 이미 `css/projects.css` 또는 `js/projects.js` 파일이 있다면 덮어쓰기 전에 확인하세요.
+5. Google Fonts가 차단된 환경에서는 시스템 기본 폰트가 표시될 수 있습니다.
+
+## 운영 참고
+
+이 페이지는 순수 HTML/CSS/JS로 만들었으므로 GitHub Pages에서 동작합니다. 메인 사이트의 실제 기존 코드 구조를 확인할 수 없어, 기존 디자인과 동일하게 맞춘 버전은 아닙니다.
+
+## 커밋 메시지
+feat: 새로운 기능 추가
+fix: 버그 수정
+docs: 문서 변경
+style: 서식 지정, 세미콜론 누락 등(코드 로직 변경 없음)
+refactor: 프로덕션 코드 리팩토링
+test: 테스트 추가 또는 리팩토링(프로덕션 코드 변경 없음)
+chore: 빌드 작업, 패키지 매니저 설정 업데이트 등(프로덕션 코드 변경 없음)
