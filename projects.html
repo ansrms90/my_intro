@@ -18,12 +18,12 @@
         <a href="./index.html">Home</a>
         <a href="#projects" class="current" aria-current="page">Projects</a>
         <a href="#about">About</a>
-        <a href="mailto:hello@example.com" class="nav-contact" id="contact-link">Contact <span aria-hidden="true">↗</span></a>
+        <a href="#contact" class="nav-contact" id="contact-link">Contact <span aria-hidden="true">↗</span></a>
       </nav>
       <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
     </div>
     <nav class="mobile-menu" id="mobile-menu" aria-label="모바일 메뉴" hidden>
-      <a href="./index.html">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="mailto:hello@example.com" class="mobile-contact">Contact</a>
+      <a href="./index.html">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact" class="mobile-contact">Contact</a>
     </nav>
   </header>
   <main id="main">
@@ -58,6 +58,17 @@
       <article class="detail-panel" id="epub-detail"><div class="detail-number">02 / EXPERIMENT</div><div class="detail-content"><div><h3>EPUB 웹 뷰어</h3><p>브라우저에서 EPUB 파일을 표시하는 인터페이스를 실험하는 개인 개발 프로젝트입니다. 라이브러리 로딩과 파일 열기 과정을 검토하고, 장기적인 확장 가능성을 탐색했습니다.</p></div><div><h4>탐색한 주제</h4><ul><li>EPUB 파일 읽기 및 콘텐츠 렌더링</li><li>JavaScript 라이브러리 연동</li><li>Electron 데스크톱 앱 확장 가능성</li><li>구조 분리와 유지보수성 개선</li></ul></div></div></article>
     </div></section>
     <section class="about-section" id="about"><div class="shell about-grid"><div><div class="section-kicker">03 / ABOUT</div><h2>기술보다 먼저,<br><span>풀어야 할 문제를 봅니다.</span></h2></div><div><p>웹 애플리케이션을 개발하며 기능 구현뿐 아니라 데이터 흐름, 화면의 사용성, 이후의 유지보수까지 함께 고려하려고 합니다.</p><div class="about-stack"><span>Java</span><span>Spring Boot</span><span>Spring Data JPA</span><span>MySQL</span><span>JavaScript</span><span>Git / GitHub</span></div><a href="./index.html" class="text-btn">메인 페이지로 돌아가기 <span aria-hidden="true">→</span></a></div></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-panel">
+        <div>
+          <div class="section-kicker">04 / CONTACT</div>
+          <h2 id="contact-title">함께 이야기해 볼까요?</h2>
+          <p>프로젝트, 협업 제안 또는 궁금한 점이 있다면 편하게 이메일을 보내 주세요.</p>
+          <a class="contact-address" href="mailto:contact@munir.cloud">contact@munir.cloud</a>
+        </div>
+        <a class="primary-btn" href="mailto:contact@munir.cloud?subject=MUNIR%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%AC%B8%EC%9D%98">이메일 보내기 <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
   </main>
   <footer class="footer"><div class="shell footer-inner"><a class="footer-brand" href="./index.html">MUNIR<span>.</span></a><span>© <span id="year">2026</span> MUNIR. Built with curiosity.</span><a href="#main">맨 위로 ↑</a></div></footer>
 </body>

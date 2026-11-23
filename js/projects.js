@@ -2,13 +2,8 @@
   'use strict';
   document.querySelector('#year').textContent = new Date().getFullYear();
 
-  // 연락처가 정해지기 전에는 임의의 이메일 주소를 노출하지 않습니다.
-  document.querySelectorAll('a[href="mailto:hello@example.com"]').forEach(link => {
-    link.href = 'https://github.com/'; // 본인의 GitHub 프로필 URL로 변경하세요.
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = link.classList.contains('nav-contact') ? 'GitHub ↗' : 'GitHub';
-  });
+  // 문의 주소는 projects.html의 Contact 섹션에서 관리합니다.
+  // mailto: 링크는 방문자의 기본 메일 앱을 열며, 사이트가 직접 메일을 발송하지는 않습니다.
 
   const filters = document.querySelectorAll('[data-filter]');
   const cards = document.querySelectorAll('[data-category]');
